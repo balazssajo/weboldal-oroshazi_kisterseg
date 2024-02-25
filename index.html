@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -31,7 +32,7 @@
     <div class="header container-fluid">
       <div class="row">
         <div class="col-md-2 col-12 logo">
-          <img class="img-fluid" src="/assets/logo.png" alt="" srcset="" />
+          <img class="img-fluid" src="/assets/logo.png" alt="" srcset="" onclick="location.href='/'" />
         </div>
         <div class="col-md-10 col-12 align-self-center">
           <div class="row contact text-center">
@@ -167,7 +168,7 @@
                           >Pusztaföldvár</a
                         >
                         <a
-                          href="#"
+                          href="adomany.html"
                           class="list-group-item list-group-item-action"
                           >Tótkomlós</a
                         >
@@ -261,14 +262,17 @@
         </div>
       </div>
     </div>
-    <div class="col-12">
-      <h4 class="text-center">
-        Orosházi Kistérség Egyesített Gyermekjóléti Központja és Családsegítő
-        Szolgálat bemutatása
-      </h4>
-    </div>
+    
     <div class="container h-100 main" style="max-width: 70vw; margin: top 0">
+
+
       <div class="row">
+        <div class="col-md col-12 pres">
+          <h4 class="text-center">
+            Orosházi Kistérség Egyesített Gyermekjóléti Központja és Családsegítő
+            Szolgálat bemutatása
+          </h4>
+        </div>
         <div class="col-md col-12 text-center">
           <i>
             &quot;Nagy dolgokra nem mindenki képes. De kis dolgokat nagy
@@ -280,7 +284,7 @@
       </div>
 
       <div class="row align-items-center justify-content-center text-center">
-        <div class="col-md-4 col-12 main-link">
+        <div class="col-md-4 col-12 main-link tasks-kozpont" onclick="location.href='adomany.html'">
           Család - és Gyermekjóléti Központ <br />
           feladatai
         </div>
@@ -361,4 +365,5 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="scripts.js"> </script>
 </html>

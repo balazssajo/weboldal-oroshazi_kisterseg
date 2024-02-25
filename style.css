@@ -1,9 +1,5 @@
 /* main color rgb(184, 40, 48) */
 
-h4 {
-  color: rgb(184, 40, 48);
-  font-weight: bold;
-}
 
 .contact {
   background-color: rgba(167, 76, 76, 0.5);
@@ -27,6 +23,15 @@ h4 {
   position: absolute; /* Position the image absolutely within the container */
   top: 0; /* Position from the top */
   left: 0; /* Position from the left */
+}
+
+.pres {
+  transition: 0.3s ease;
+}
+
+.pres:hover{
+  transform: scale(1.04);
+  cursor: pointer;
 }
 
 .main {
